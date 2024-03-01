@@ -88,6 +88,7 @@ label {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+
 }
 
 /* FIN DE CARD*/
@@ -99,6 +100,7 @@ button {
 
 ul {
     display: flex;
+    justify-content: space-around;
     list-style: none;
     font-size: x-large;
 }
@@ -143,17 +145,18 @@ input[type=submit] {
 
 footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    color: white;
-    text-transform: uppercase;
-    font-size: large;
+    background-color: white;
 }
 
-footer ul li {
-    padding: 15px;
+footer img {
+    width: 100px;
+    height: 100px;
 }
 
 footer p {
-    font-size: medium;
+    font-size: large;
+    color: black;
 }
