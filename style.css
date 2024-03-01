@@ -61,6 +61,13 @@ label {
 
 }
 
+.card-body {
+    background-color: black;
+}
+
+.card-text {
+    font-size: small;
+}
 
 /*button {
     border: none;
