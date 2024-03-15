@@ -1,8 +1,10 @@
+@import 'base/variables';
+@import 'base/mediaQuerys';
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
+    padding: 1px;
+    margin: 1px;
 }
 
 header {
@@ -20,37 +22,30 @@ header {
 }
 
 body {
-    background-color: black;
+    background-color: $primary-color
 }
 
 .bienvenido {
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/e75ccbd4-4d26-4cba-bec9-f424c894f766/AR-es-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg");
-    color: white;
+    color: $segund-color;
     height: 600px;
 }
 
-h1 {
-    font-size: 100px;
-    font-family: "Anta", sans-serif;
-    color: white;
-}
-
-h2 {
-    font-size: 50px;
-    font-family: "Anta", sans-serif;
-    color: white;
-    margin-top: 30px;
-    text-align: center;
+.search {
+    width: 50%;
+    padding: 20px 40px;
+    margin: 8px 0;
 }
 
 label {
     font-size: 20px;
     font-family: "Anta", sans-serif;
-    color: white;
+    color: $segund-color;
 }
 
 .bienvenido input.search {
@@ -64,52 +59,35 @@ button {
     margin: 4px;
 }
 
+/* Modificaciones de card Movie*/
 
-.search img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-p {
-    color: white;
-    text-indent: 5px;
-    text-transform: uppercase;
-    font-size: xx-large;
-    font-family: "Anta", sans-serif;
-}
-
-
-
-footer {
+/*
+.view {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
+    flex-direction: row;
+    justify-content: space-around;
 
-    img {
-        width: 100px;
-        height: 100px;
+    .card-body {
+        background-color: $primary-color;
     }
 
-    p {
-        font-size: large;
-        color: black;
+    .card-text {
+        font-size: small;
     }
 
-    ul {
-        display: flex;
-        justify-content: space-around;
-        list-style: none;
-        font-size: x-large;
+    .card {
+        margin-top: 30px;
+        margin-bottom: 10px;
+
     }
 
-}
+}*/
+
+/* Modificaciones de card Series */
 
 
 form {
-
     display: flex;
     flex-direction: column;
 

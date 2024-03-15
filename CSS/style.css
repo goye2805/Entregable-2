@@ -1,7 +1,75 @@
 @import url("https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap");
+@media (min-width: 576px) {
+  h1 {
+    font-size: 60px;
+    font-family: "Anta", sans-serif;
+    color: white;
+  }
+  p {
+    color: white;
+    text-indent: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "Anta", sans-serif;
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+  }
+  footer img {
+    width: 40px;
+    height: 40px;
+  }
+  footer p {
+    font-size: 10px;
+    color: #000000;
+  }
+  footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: x-large;
+  }
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 100px;
+    font-family: "Anta", sans-serif;
+    color: white;
+  }
+  p {
+    color: white;
+    text-indent: 5px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "Anta", sans-serif;
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+  }
+  footer img {
+    width: 70px;
+    height: 70px;
+  }
+  footer p {
+    font-size: 20px;
+    color: #000000;
+  }
+  footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: x-large;
+  }
+}
 * {
-  padding: 0;
-  margin: 0;
+  padding: 1px;
+  margin: 1px;
 }
 
 header {
@@ -18,7 +86,7 @@ header ul {
 }
 
 body {
-  background-color: black;
+  background-color: #000000;
 }
 
 .bienvenido {
@@ -31,18 +99,10 @@ body {
   height: 600px;
 }
 
-h1 {
-  font-size: 100px;
-  font-family: "Anta", sans-serif;
-  color: white;
-}
-
-h2 {
-  font-size: 50px;
-  font-family: "Anta", sans-serif;
-  color: white;
-  margin-top: 30px;
-  text-align: center;
+.search {
+  width: 50%;
+  padding: 20px 40px;
+  margin: 8px 0;
 }
 
 label {
@@ -61,42 +121,30 @@ button {
   margin: 4px;
 }
 
-.search img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* Modificaciones de card Movie*/
+/*
+.view {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 
-p {
-  color: white;
-  text-indent: 5px;
-  text-transform: uppercase;
-  font-size: xx-large;
-  font-family: "Anta", sans-serif;
-}
+    .card-body {
+        background-color: $primary-color;
+    }
 
-footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-}
-footer img {
-  width: 100px;
-  height: 100px;
-}
-footer p {
-  font-size: large;
-  color: black;
-}
-footer ul {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  font-size: x-large;
-}
+    .card-text {
+        font-size: small;
+    }
 
+    .card {
+        margin-top: 30px;
+        margin-bottom: 10px;
+
+    }
+
+}*/
+/* Modificaciones de card Series */
 form {
   display: flex;
   flex-direction: column;

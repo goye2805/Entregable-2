@@ -1,0 +1,90 @@
+@media (min-width: #{$breakpoint-sm}) {
+
+    // desde sm
+    // Estilos para sm y mayores
+    h1 {
+        font-size: 60px;
+        font-family: "Anta", sans-serif;
+        color: $segund-color;
+    }
+
+    p {
+        color: $segund-color;
+        text-indent: 5px;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-family: "Anta", sans-serif;
+    }
+
+    footer {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: $segund-color;
+
+        img {
+            width: 40px;
+            height: 40px;
+        }
+
+        p {
+            font-size: 10px;
+            color: $primary-color;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            font-size: x-large;
+        }
+    }
+
+
+}
+
+@media (min-width: #{$breakpoint-xl}) {
+    // desde xl
+    // Estilos para xl y mayores
+
+    h1 {
+        font-size: 100px;
+        font-family: "Anta", sans-serif;
+        color: $segund-color;
+    }
+
+    p {
+        color: $segund-color;
+        text-indent: 5px;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-family: "Anta", sans-serif;
+    }
+
+
+    footer {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: $segund-color;
+
+        img {
+            width: 70px;
+            height: 70px;
+        }
+
+        p {
+            font-size: 20px;
+            color: $primary-color;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            font-size: x-large;
+        }
+    }
+}
