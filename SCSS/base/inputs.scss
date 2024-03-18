@@ -15,3 +15,19 @@
         background-color: $segund-color;
     }
 }
+
+.imagenes {
+    filter: sepia(100%);
+
+    &:hover {
+        transition: 1s;
+        filter: sepia(0%);
+    }
+}
+
+.sombras {
+    box-shadow: 10px 10px $segund-color;
+    transition: 1s;
+}
+
+.iniciar {}

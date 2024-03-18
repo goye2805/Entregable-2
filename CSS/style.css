@@ -5,6 +5,11 @@
     font-family: "Anta", sans-serif;
     color: white;
   }
+  h2 {
+    font-size: 40px;
+    font-family: "Anta", sans-serif;
+    color: white;
+  }
   p {
     color: white;
     text-indent: 5px;
@@ -36,6 +41,11 @@
 @media (min-width: 1200px) {
   h1 {
     font-size: 100px;
+    font-family: "Anta", sans-serif;
+    color: white;
+  }
+  h2 {
+    font-size: 40px;
     font-family: "Anta", sans-serif;
     color: white;
   }
@@ -82,6 +92,19 @@
   cursor: pointer;
   color: black;
   background-color: white;
+}
+
+.imagenes, .series img, .view .card-img-top {
+  filter: sepia(100%);
+}
+.imagenes:hover, .series img:hover, .view .card-img-top:hover {
+  transition: 1s;
+  filter: sepia(0%);
+}
+
+.sombras, .view .card:hover {
+  box-shadow: 10px 10px white;
+  transition: 1s;
 }
 
 * {
@@ -144,7 +167,6 @@ label {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-
 /* Modificaciones de card Series */
 .series {
   text-align: center;
