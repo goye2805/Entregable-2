@@ -24,7 +24,7 @@
   }
   footer p {
     font-size: 10px;
-    color: #000000;
+    color: black;
   }
   footer ul {
     display: flex;
@@ -58,7 +58,7 @@
   }
   footer p {
     font-size: 20px;
-    color: #000000;
+    color: black;
   }
   footer ul {
     display: flex;
@@ -67,6 +67,23 @@
     font-size: x-large;
   }
 }
+.Buton {
+  margin: 1px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 8px 15px;
+  text-align: center;
+}
+.Buton:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+
 * {
   padding: 1px;
   margin: 1px;
@@ -86,7 +103,7 @@ header ul {
 }
 
 body {
-  background-color: #000000;
+  background-color: black;
 }
 
 .bienvenido {
@@ -98,8 +115,7 @@ body {
   color: white;
   height: 600px;
 }
-
-.search {
+.bienvenido input.search {
   width: 50%;
   padding: 20px 40px;
   margin: 8px 0;
@@ -111,40 +127,32 @@ label {
   color: white;
 }
 
-.bienvenido input.search {
-  width: 50%;
-  padding: 20px 40px;
-  margin: 8px 0;
-}
-
-button {
-  margin: 4px;
-}
-
 /* Modificaciones de card Movie*/
-/*
 .view {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.view .card-body {
+  background-color: black;
+}
+.view .card-text {
+  font-size: small;
+}
+.view .card {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
 
-    .card-body {
-        background-color: $primary-color;
-    }
-
-    .card-text {
-        font-size: small;
-    }
-
-    .card {
-        margin-top: 30px;
-        margin-bottom: 10px;
-
-    }
-
-}*/
 /* Modificaciones de card Series */
+.series {
+  text-align: center;
+}
+.series img {
+  height: 100%;
+}
+
 form {
   display: flex;
   flex-direction: column;

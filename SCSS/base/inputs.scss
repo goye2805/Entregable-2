@@ -1,0 +1,17 @@
+.Buton {
+    margin: 1px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $primary-color;
+    color: $segund-color;
+    border: 1px solid $segund-color;
+    border-radius: 10px;
+    padding: 8px 15px;
+    text-align: center;
+
+    &:hover {
+        cursor: pointer;
+        color: $primary-color;
+        background-color: $segund-color;
+    }
+}
