@@ -86,11 +86,16 @@ label {
 .series {
     text-align: center;
 
+    @extend .iniciar;
+    animation: mymove 2s;
+
     img {
         height: 100%;
         @extend .imagenes
     }
 }
+
+/* Estilos de Form */
 
 form {
     display: flex;

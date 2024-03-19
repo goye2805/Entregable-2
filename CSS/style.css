@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap");
 @media (min-width: 576px) {
+  @keyframes mymove {
+    from {
+      left: -120%;
+    }
+    to {
+      left: 0%;
+    }
+  }
   h1 {
     font-size: 60px;
     font-family: "Anta", sans-serif;
@@ -9,6 +17,7 @@
     font-size: 40px;
     font-family: "Anta", sans-serif;
     color: white;
+    text-align: center;
   }
   p {
     color: white;
@@ -39,6 +48,14 @@
   }
 }
 @media (min-width: 1200px) {
+  @keyframes mymove {
+    from {
+      left: -120%;
+    }
+    to {
+      left: 0%;
+    }
+  }
   h1 {
     font-size: 100px;
     font-family: "Anta", sans-serif;
@@ -48,6 +65,7 @@
     font-size: 40px;
     font-family: "Anta", sans-serif;
     color: white;
+    text-align: center;
   }
   p {
     color: white;
@@ -105,6 +123,12 @@
 .sombras, .view .card:hover {
   box-shadow: 10px 10px white;
   transition: 1s;
+}
+
+.iniciar, .series {
+  animation-timing-function: ease;
+  position: relative;
+  animation-fill-mode: forwards;
 }
 
 * {
@@ -170,11 +194,13 @@ label {
 /* Modificaciones de card Series */
 .series {
   text-align: center;
+  animation: mymove 2s;
 }
 .series img {
   height: 100%;
 }
 
+/* Estilos de Form */
 form {
   display: flex;
   flex-direction: column;

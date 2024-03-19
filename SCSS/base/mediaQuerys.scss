@@ -2,6 +2,17 @@
 
     // desde sm
     // Estilos para sm y mayores
+
+    @keyframes mymove {
+        from {
+            left: -120%;
+        }
+
+        to {
+            left: 0%;
+        }
+    }
+
     h1 {
         font-size: 60px;
         font-family: "Anta", sans-serif;
@@ -12,6 +23,7 @@
         font-size: 40px;
         font-family: "Anta", sans-serif;
         color: $segund-color;
+        text-align: center;
     }
 
     p {
@@ -54,6 +66,17 @@
     // desde xl
     // Estilos para xl y mayores
 
+
+    @keyframes mymove {
+        from {
+            left: -120%;
+        }
+
+        to {
+            left: 0%;
+        }
+    }
+
     h1 {
         font-size: 100px;
         font-family: "Anta", sans-serif;
@@ -64,6 +87,7 @@
         font-size: 40px;
         font-family: "Anta", sans-serif;
         color: $segund-color;
+        text-align: center;
     }
 
     p {
