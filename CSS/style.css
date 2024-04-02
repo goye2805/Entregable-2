@@ -209,6 +209,9 @@ label {
 .series img {
   height: 100%;
 }
+.series p {
+  font-size: 20px;
+}
 
 /* Estilos de Nosotros*/
 .nosotros {

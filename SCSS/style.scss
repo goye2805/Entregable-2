@@ -85,13 +85,16 @@ label {
 /* Modificaciones de card Series */
 .series {
     text-align: center;
-
     @extend .iniciar;
     animation: mymove 2s;
 
     img {
         height: 100%;
         @extend .imagenes
+    }
+
+    p {
+        font-size: 20px;
     }
 }
 
